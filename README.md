@@ -88,7 +88,7 @@ Previously published research archives remain available, including:
 - **v1.0.0:** https://doi.org/10.5281/zenodo.22860429
 - **v1.0.1:** https://doi.org/10.5281/zenodo.24051010
 
-A version-specific DOI for v1.1.1 will be added after its Zenodo record has been published and verified.
+**v1.1.1 Zenodo DOI:** https://doi.org/10.5281/zenodo.24247403
 
 Publishing a GitHub release does not itself establish that Zenodo has ingested the release materials. Earlier archival records remain independent of this repository update.
 
@@ -106,9 +106,9 @@ Peer-review correspondence, cover letters and private submission documents are n
 
 **Repository:** https://github.com/qingqingyuanyuan/dta-model-comparison-reliability-public
 
-**Planned release:** v1.1.1
+**Release:** v1.1.1
 
-**Planned release date:** 2026-11-15
+**Release date:** 2026-11-15
 
 **Evidence scope:** 282 runs
 
