@@ -6,8 +6,6 @@ Reproducibility materials accompanying **Model Rankings in Drug–Target Affinit
 
 This v1.1.1 distribution updates the repository packaging and release metadata for the existing 282-run evidence set. It does not represent an additional experimental campaign.
 
-The `revisions/v1.1.0/` directory structure is intentionally retained for compatibility with the existing payload index, checksum records and unpacking script.
-
 The current manuscript evidence comprises **282 runs**, kept in distinct layers:
 
 | Evidence layer | Runs | Scope |
