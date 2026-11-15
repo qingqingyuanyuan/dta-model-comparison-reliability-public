@@ -86,11 +86,8 @@ Third-party materials remain subject to their original licenses. See `LICENSE_SC
 
 ## Archiving
 
+The v1.1.1 distribution is archived on Zenodo at [https://doi.org/10.5281/zenodo.24247403](https://doi.org/10.5281/zenodo.24247403).
 
+The version-specific DOI identifies v1.1.1. The concept DOI for all versions is https://doi.org/10.5281/zenodo.24247402.
 
-A version-specific Zenodo DOI for this v1.1.1 distribution will be provided only after the corresponding deposit has been published and verified.
-
-
-
-A GitHub release does not itself establish a Zenodo deposit.
-
+The Zenodo record is the archival version of this distribution.
