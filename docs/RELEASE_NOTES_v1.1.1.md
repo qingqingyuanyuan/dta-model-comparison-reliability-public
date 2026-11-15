@@ -1,12 +1,12 @@
-\# v1.1.1 — Reproducibility Distribution and Metadata Update
+# v1.1.1 — Reproducibility Distribution and Metadata Update
 
 
 
-\*\*Release date:\*\* 2026-11-15
+**Release date:** 2026-11-15
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,7 +18,7 @@ This release reorganizes repository distribution and citation metadata. It does 
 
 
 
-\## Evidence Scope
+## Evidence Scope
 
 
 
@@ -26,15 +26,15 @@ The evidence package retains:
 
 
 
-\- 126 original KIBA/Davis campaign runs.
+- 126 original KIBA/Davis campaign runs.
 
-\- 36 matched-optimizer AdamW capacity-control runs.
+- 36 matched-optimizer AdamW capacity-control runs.
 
-\- 30 additional KIBA second-split runs.
+- 30 additional KIBA second-split runs.
 
-\- 30 GPCR extension runs.
+- 30 GPCR extension runs.
 
-\- 60 protease extension runs.
+- 60 protease extension runs.
 
 
 
@@ -42,7 +42,7 @@ The historical 36-run Adam exploration remains auxiliary and excluded from the 2
 
 
 
-\## Reproducibility Materials
+## Reproducibility Materials
 
 
 
@@ -50,7 +50,7 @@ The established `revisions/v1.1.0/` directory structure is retained for compatib
 
 
 
-The package contains 69 independently checksummed ZIP parts in `revisions/v1.1.0/payload\_parts/`, together with the existing payload index and reconstruction script.
+The package contains 69 independently checksummed ZIP parts in `revisions/v1.1.0/payload_parts/`, together with the existing payload index and reconstruction script.
 
 
 
@@ -58,21 +58,21 @@ The release preserves the documented scientific scope, limitations, statistical 
 
 
 
-\## Repository Updates
+## Repository Updates
 
 
 
-\- Updated README and citation metadata for the v1.1.1 distribution.
+- Updated README and citation metadata for the v1.1.1 distribution.
 
-\- Updated repository links to the current public distribution.
+- Updated repository links to the current public distribution.
 
-\- Retained the existing reproducibility payload and verification records.
+- Retained the existing reproducibility payload and verification records.
 
-\- Preserved the previously documented licensing distinctions.
+- Preserved the previously documented licensing distinctions.
 
 
 
-\## Licensing
+## Licensing
 
 
 
@@ -80,11 +80,11 @@ Earlier v1.0.0/v1.0.1 materials retain their existing CC BY 4.0 grants. New revi
 
 
 
-Third-party materials remain subject to their original licenses. See `LICENSE\_SCOPE.md`.
+Third-party materials remain subject to their original licenses. See `LICENSE_SCOPE.md`.
 
 
 
-\## Archiving
+## Archiving
 
 
 
