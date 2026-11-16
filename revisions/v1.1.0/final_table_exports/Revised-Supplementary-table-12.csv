@@ -1,7 +1,13 @@
-﻿Dataset,Regime pair,Seed 42,Seed 123,Seed 2026
-KIBA,warm vs cold-target,+0.40,+0.20,+0.40
-KIBA,warm vs cold-drug,-0.40,+0.00,-0.40
-KIBA,cold-target vs cold-drug,-0.60,-0.40,+0.20
-Davis,warm vs cold-target,+0.20,-0.20,+0.60
-Davis,warm vs cold-drug,+0.00,+0.00,+0.00
-Davis,cold-target vs cold-drug,+0.40,+0.80,+0.40
+Replacement set,Dataset,Regime pair,Seed 42,Seed 123,Seed 2026
+mean-pooling,KIBA,warm vs cold-target,+0.20,+0.00,+0.40
+mean-pooling,KIBA,warm vs cold-drug,-0.60,-0.20,-0.40
+mean-pooling,KIBA,cold-target vs cold-drug,-0.60,+0.40,-0.20
+mean-pooling,Davis,warm vs cold-target,+0.20,-0.40,+0.40
+mean-pooling,Davis,warm vs cold-drug,+0.20,-0.20,-0.20
+mean-pooling,Davis,cold-target vs cold-drug,+0.20,+0.80,+0.40
+max_len=1000,KIBA,warm vs cold-target,+0.40,+0.40,+0.40
+max_len=1000,KIBA,warm vs cold-drug,-0.40,-0.20,-0.40
+max_len=1000,KIBA,cold-target vs cold-drug,-0.60,-0.40,+0.20
+max_len=1000,Davis,warm vs cold-target,+0.20,+0.00,+0.60
+max_len=1000,Davis,warm vs cold-drug,+0.00,+0.20,+0.20
+max_len=1000,Davis,cold-target vs cold-drug,+0.00,+0.40,+0.20
