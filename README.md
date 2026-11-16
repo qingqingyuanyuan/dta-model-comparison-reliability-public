@@ -148,7 +148,7 @@ Publishing a GitHub release does not itself establish that Zenodo has ingested t
 
 Previously published v1.0.0/v1.0.1 material retains its original **CC BY 4.0** grant.
 
-New revision additions retain the supplied public candidate's **CC BY-NC 4.0** terms. Third-party data and dependencies remain subject to their respective licenses.
+New additions under `revisions/v1.1.0/` are distributed under **CC BY-NC 4.0**, as specified in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Third-party data and dependencies remain subject to their respective licenses.
 
 See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) and [LICENSE-NEW-ADDITIONS.txt](LICENSE-NEW-ADDITIONS.txt) for further details.
 
