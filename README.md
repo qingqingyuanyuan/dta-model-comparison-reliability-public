@@ -147,10 +147,15 @@ Previously published research archives remain available:
 
 The v1.1.1 Zenodo record is a historical archive and does not contain the v1.1.2 S11 Part 2 correction.
 
-A version-specific Zenodo DOI for v1.1.2 will be added after the corresponding archive has been published and verified.
+The v1.1.2 version-specific Zenodo record is now published:
 
-Publishing a GitHub release does not itself establish that Zenodo has ingested the release materials.
+- **v1.1.2:** https://doi.org/10.5281/zenodo.24279260
 
+The v1.1.1 Zenodo record remains available as a historical archive and does not contain the v1.1.2 S11 Part 2 correction.
+
+**Concept DOI (all versions):** https://doi.org/10.5281/zenodo.24247402
+
+Use the version-specific DOI to cite v1.1.2. The Concept DOI resolves to the latest version and can be used to cite the complete version history.
 ## License Scope
 
 Previously published v1.0.0/v1.0.1 material retains its original **CC BY 4.0** grant.
