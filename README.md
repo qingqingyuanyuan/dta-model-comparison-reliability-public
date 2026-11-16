@@ -117,3 +117,12 @@ Peer-review correspondence, cover letters and private submission documents are n
 **Payload archive parts:** 69
 
 The v1.1.1 release is a repository distribution and metadata update for the existing evidence package. It does not claim new experiments or independent experimental replication.
+## Current distribution — v1.1.2
+
+Version v1.1.2 corrects the seedwise Kendall rank-correlation export
+for Supplementary Table S11 Part 2.
+
+The corrected export contains 12 rows covering the mean-pooling
+and max_len=1000 replacement model sets.
+
+The experimental evidence remains unchanged at 282 runs.

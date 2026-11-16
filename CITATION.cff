@@ -2,9 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the manuscript and this version-specific archived reproducibility release."
 title: "Reproducibility package for controlled multi-regime evaluation of drug-target affinity models"
 type: software
-version: "1.1.1"
-date-released: 2026-11-15
-doi: "10.5281/zenodo.24247403"
+version: "1.1.2"
+date-released: 2026-11-16
 authors:
   - family-names: Kui
     given-names: Haobo
