@@ -2,7 +2,15 @@
 
 This revision combines the current 192-run kinase evidence with 90 external GPCR/protease runs, without pooling the historical Adam exploration into the total. All previous immutable Git/Zenodo tags remain distinct.
 
-The independent ZIPs in `payload_parts/` use the member paths listed in `payload_index.json`. Run the repository's `scripts/unpack_revision_v110.py` into a new empty directory. The result contains `kinase_192/`, `external_90/`, `final_checks/` and source/omission inventories.
+The 69 independent ZIP parts in `payload_parts/` are the immutable historical v1.1.0 payload. Their member paths and checksums are recorded in `payload_index.json`.
+
+For an exact reconstruction of the historical v1.1.0 snapshot, run `scripts/unpack_revision_v110.py` into a new empty directory.
+
+For the corrected v1.1.2 distribution, run `scripts/unpack_revision_v112.py` instead. This script validates the original 69 ZIP parts, their SHA256 checksums, ZIP CRCs, member paths and the original public source mapping. It then overlays the corrected 12-row S11 Part 2 CSV from `revisions/v1.1.0/final_table_exports/` onto the extracted `external_90/final_table_exports/` directory.
+
+The historical ZIP parts and `payload_index.json` remain unchanged. The historical six-row S11 copy is retained inside the original archive as part of the v1.1.0 snapshot. The v1.1.2 unpacking procedure produces the corrected 12-row S11 file without modifying the historical archives.
+
+The result contains `kinase_192/`, `external_90/`, `final_checks/` and source/omission inventories.
 
 `kinase_192/` retains the supplied final v1.0.2 candidate's training/evaluation implementations, frozen integer membership/scalers, per-run evaluation metadata, history files and prediction-only projections. Weights, large logs, original optimizer-evidence checkpoints and private authoring helpers are explicitly omitted. Do not run the inherited `dta_reproduce.py verify` checkpoint gate against this reduced payload: that command requires omitted checkpoint files. Its separate label/metric tools need independently acquired upstream files, recorded dependencies and a C++ compiler; the current packaging step does not claim to rerun those historical metric reconstructions.
 
