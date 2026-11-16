@@ -2,9 +2,9 @@ Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 Copyright (c) 2026 Haobo Kui, Xinyuan Cui
 
-This archive — source code, model weights, prediction tables, statistics,
-configuration, manifests and documentation — is made available under the
-Creative Commons Attribution-NonCommercial 4.0 International Public License.
+This archive — source code, prediction tables, statistical summaries,
+configuration files, manifests and documentation — is made available under
+the Creative Commons Attribution-NonCommercial 4.0 International Public License.
 
 Commercial use is NOT permitted. You may share and adapt the material for
 non-commercial purposes only ("NonCommercial" means not primarily intended
@@ -16,8 +16,9 @@ License deed:  https://creativecommons.org/licenses/by-nc/4.0/
 Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
 The canonical legal code text follows verbatim.
 
-Third-party data (BatchDTA, KIBA, Davis) is not redistributed in this archive
-and is therefore not covered by this license. See THIRD_PARTY_NOTICES.md.
+Third-party inputs, including KIBA, Davis, BatchDTA, BindingDB and UniProt
+materials, are not redistributed in this archive and are not covered by this
+license. See LICENSE_SCOPE.md for the per-path license mapping and scope.
 
 Per-path mapping: see LICENSE_SCOPE.md.
 
