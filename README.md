@@ -88,15 +88,21 @@ The S11 Part 2 CSV is a document-table transcription, not an independently recom
 
 ## Unpacking and Reproducibility
 
-To reconstruct the revision materials, run the following command from the repository root:
+For exact historical v1.1.0 reconstruction, run:
 
 ```bash
 python scripts/unpack_revision_v110.py --output ../dta_v110_materials
 ```
 
-All ZIP parts unpack into one output directory.
+For the corrected v1.1.2 distribution, run:
 
-The script checks hashes, rejects unsafe paths and does not load weights, execute archived code or run training.
+```bash
+python scripts/unpack_revision_v112.py --output ../dta_v112_materials
+```
+
+The original 69 ZIP parts and v1.1.0 payload index remain unchanged. The v1.1.2 unpacking script validates the historical payload and overlays the corrected 12-row S11 Part 2 CSV into the extracted output.
+
+Both scripts validate the original archive checksums and do not load weights, execute archived code or run training.
 
 No third-party source structures, sequences or affinity labels are redistributed. Reconstruct labels and features from independently acquired upstream versions and exact membership records and hashes, as explained in the payload provenance documentation.
 
@@ -107,6 +113,7 @@ Complete original-126 weights, logs, record predictions and original bootstrap r
 Historical checkpoint and prediction receipts refer to the original files, not the derived public projections.
 
 Inherited bootstrap summaries are distinguished from independently recomputed metrics. File verification does not reconstruct historical test access or prove training determinism.
+
 
 ## Final Statistical Corrections
 
