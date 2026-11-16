@@ -50,5 +50,9 @@ For exact historical reconstruction, use `scripts/unpack_revision_v110.py`. For 
 ## Archiving
 
 Version v1.1.2 supersedes v1.1.1 for the corrected S11 Part 2 table export and its documented reconstruction procedure. The earlier release remains available as a historical record.
+The v1.1.2 archive is published on Zenodo:
 
-A version-specific Zenodo DOI will be added after the new archive has been published and verified.
+- Version-specific DOI: https://doi.org/10.5281/zenodo.24279260
+- Concept DOI (all versions): https://doi.org/10.5281/zenodo.24247402
+
+Use the version-specific DOI to cite this exact v1.1.2 release. The Concept DOI resolves to the latest version of the record.
