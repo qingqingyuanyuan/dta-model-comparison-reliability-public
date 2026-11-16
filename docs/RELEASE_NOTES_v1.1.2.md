@@ -6,7 +6,7 @@ Version v1.1.2 corrects the public export of Supplementary Table S11 Part 2. No 
 
 ## Correction
 
-`revisions/v1.1.0/final_table_exports/Revised-Supplementary-table-12.csv` now contains the 12 seedwise Kendall rank-correlation rows for the two replacement model sets:
+`revisions/v1.1.0/final_table_exports/Revised-Supplementary-table-12.csv` contains the corrected 12 seedwise Kendall rank-correlation rows for two replacement model sets:
 
 - Mean-pooling replacement: 6 rows.
 - max_len=1000 replacement: 6 rows.
@@ -23,10 +23,32 @@ The previous six-row export contained seedwise correlations for the original fiv
 
 The original 282-run evidence set, training protocols, run-level results and underlying prediction data remain unchanged.
 
-The existing revision payload is retained under `revisions/v1.1.0/` for reproducibility and compatibility.
+The 69 original ZIP parts and `payload_index.json` under `revisions/v1.1.0/` are retained unchanged as the historical v1.1.0 payload.
+
+The historical ZIP payload intentionally retains its original six-row S11 Part 2 CSV. This historical copy is not represented as the corrected v1.1.2 export.
+
+## v1.1.2 Unpacking and S11 Overlay
+
+The new script `scripts/unpack_revision_v112.py` provides the corrected v1.1.2 reconstruction procedure.
+
+It:
+
+1. Verifies all 69 original ZIP parts against the existing v1.1.0 payload index.
+2. Checks ZIP CRCs, member counts, duplicate paths and unsafe paths.
+3. Extracts the historical payload and verifies the original `PUBLIC_SOURCE_MAPPING.json` hashes.
+4. Replaces the extracted historical six-row S11 Part 2 CSV with the corrected 12-row public CSV.
+5. Verifies the resulting S11 header, row count and file contents.
+
+The corrected file is written to:
+
+`external_90/final_table_exports/Revised-Supplementary-table-12.csv`
+
+The original ZIP parts, historical payload index and v1.1.0 unpacking script are not modified.
+
+For exact historical reconstruction, use `scripts/unpack_revision_v110.py`. For the corrected v1.1.2 distribution, use `scripts/unpack_revision_v112.py`.
 
 ## Archiving
 
-Version v1.1.2 supersedes v1.1.1 for the corrected S11 Part 2 table export. The earlier release remains available as a historical record.
+Version v1.1.2 supersedes v1.1.1 for the corrected S11 Part 2 table export and its documented reconstruction procedure. The earlier release remains available as a historical record.
 
 A version-specific Zenodo DOI will be added after the new archive has been published and verified.
